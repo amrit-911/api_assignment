@@ -1,0 +1,31 @@
+### create
+POST http://localhost:8080/api/create
+content-type: application/json
+
+{
+"name": "The Lord of the Rings: The Fellowship of the Ring",
+"img": "https://bit.ly/2Pzczlb",
+"summary": "A young hobbit, Frodo, who has found the One Ring that belongs to the Dark Lord Sauron, begins his journey with eight companions to Mount Doom, the only place where it can be destroyed."}       
+
+### get
+GET http://localhost:8080/api/get
+Content-Type: application/json
+
+
+### update
+PATCH http://localhost:8080/api/update/66466ea79abf077581663d85
+Content-Type: application/json
+    
+{
+  "img":"https://bit.ly/2tC1Lcg"
+}    
+
+### delete
+DELETE http://localhost:8080/api/delete/66466ba8546e8fbc59391177
+Content-Type: application/json
+    
+{
+  "name":"amrit suthar",
+  "img":"amrit.png",
+  "summary":"I am Amrit and I am a Backend Developer and Frontend dev"
+}    
